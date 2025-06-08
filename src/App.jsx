@@ -10,7 +10,7 @@ import Navbar from "./Navbar";
 function App() {
   return (
     <>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center bg-[#1d232a] text-white">
         <div className="max-w-[72rem] w-full p-4">
           <Navbar />
           <Section1 />
