@@ -39,12 +39,16 @@ export default function Accordion() {
     <>
       {dataAccordion.map((data, index) => (
         <div
-          className="collapse collapse-arrow bg-base-100 border border-base-300"
+          className="collapse collapse-arrow bg-#1d232a border border-base-300"
           key={index}
         >
           <input type="radio" name="my-accordion-2" />
-          <div className="collapse-title font-semibold">{data.question}</div>
-          <div className="collapse-content text-sm">{data.answer}</div>
+          <div className="collapse-title font-semibold text-white">
+            {data.question}
+          </div>
+          <div className="collapse-content text-sm text-white">
+            {data.answer}
+          </div>
         </div>
       ))}
     </>
