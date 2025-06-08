@@ -6,7 +6,7 @@ export default function Section5() {
       <h2 className="uppercase font-bold mb-5 text-xl opacity-65">
         Video Edited By RILKAYT
       </h2>
-      <div className="rounded-lg shadow-sm p-8 border-0 bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-700 hover:shadow-lg transition-shadow duration-300 w-full">
+      <div className="rounded-lg shadow-sm p-8 border-0 bg-[#1e2939] hover:shadow-lg transition-shadow duration-300 w-full">
         <div className="grid grid-cols-5 grid-rows-4 gap-3 max-h-[10rem] sm:max-h-[30rem] lg:max-h-[50rem]">
           <div className="col-span-2 row-span-2 overflow-hidden rounded-lg ">
             <img
